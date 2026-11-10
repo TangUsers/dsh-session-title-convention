@@ -1,0 +1,51 @@
+{
+  "name": "dsh-session-title-convention",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Auto-formats DSH session titles to a workspace convention 【<stage><status>】<workspace>｜<module>｜<MMDD>｜<brief>; workspace label, modules and scope are configurable.",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "session",
+    "session-title",
+    "naming-convention",
+    "productivity"
+  ],
+  "license": "MIT",
+  "author": "TangUsers",
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TangUsers/dsh-session-title-convention.git"
+  },
+  "homepage": "https://github.com/TangUsers/dsh-session-title-convention#readme",
+  "bugs": {
+    "url": "https://github.com/TangUsers/dsh-session-title-convention/issues"
+  }
+}

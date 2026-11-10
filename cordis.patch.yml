@@ -1,0 +1,4 @@
+- insert:
+    - id: session-title-convention
+      name: dsh-session-title-convention
+      config: {}

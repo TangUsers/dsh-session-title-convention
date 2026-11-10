@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Title Convention",
+    "description": "Keeps session titles in the 【stage+status】workspace｜module｜MMDD｜brief form. Workspace label, module vocabulary and scope are all configurable."
+  }
+}
